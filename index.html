@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form id="form1">
+        <h3 class="create">CREATE ACCOUNT</h3>
+        <input type="text" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirmed Password" required>
+
+        <div class="btn-box">
+            <button id="next1" type="button">Next</button>
+        </div>
+    </form>
+
+    <form id="form2">
+        <h3>SOCIAL LINKS</h3>
+        <input type="text" placeholder="Reddit" required>
+        <input type="text" placeholder="Github" required>
+        <input type="text" placeholder="Linkedin" required>
+
+        <div class="btn-box">
+            <button type="button" id="back1">BACK</button>
+            <button type="button" id="next2">Next</button>
+        </div>
+    </form>
+
+    <form id="form3">
+        <h3>PERSONAL INFO</h3>
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="text" placeholder="Mobile No." required>
+
+        <div class="btn-box">
+            <button type="button" id="back2">Back</button>
+            <button class="submit" type="button">Submit</button>
+        </div>
+    </form>
+
+    <div class="step-row">
+        <div id="progress"></div>
+           <div class="step-col"><small>Step 1</small></div>
+           <div class="step-col"><small>Step 2</small></div>
+           <div class="step-col"><small>Step 3</small></div>
+       </div>
+
+    </div>
+    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="index.js"></script>
+</body>
+</html>
